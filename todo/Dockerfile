@@ -25,7 +25,7 @@ RUN cd ui && npm run build
 
 FROM quay.io/cybozu/ubuntu:22.04 AS runtime
 
-LABEL org.opencontainers.image.source https://github.com/adavarski/kind-argocd-playground
+LABEL org.opencontainers.image.source https://github.com/DogWitDaButter/GitOps-Demo
 
 WORKDIR /
 

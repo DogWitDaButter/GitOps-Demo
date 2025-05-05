@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/adavarski/kind-argocd-playground.git
+    repoURL: https://github.com/DogWitDaButter/GitOps-Demo.git
     targetRevision: main
     path: manifests/namespaces
   destination:
